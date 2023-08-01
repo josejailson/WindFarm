@@ -3,8 +3,8 @@
 
 ![pipeline](pipeline.png)
 
-O objetivo desse projeto é criar uma pipeline de engenharia de dados usando as ferramentas da AWS. 
+The objective of this project is to create a data engineering pipeline using AWS tools.
 
-Vamos simular um parque eólico. Cada um dos aerogeradores irá enviar, periodicamente, informações sobre sua temperatura, pressão hidráulica e potência. 
+We will simulate a wind farm, where each of the wind turbines will periodically send information about its temperature, hydraulic pressure, and power.
 
-Nossa aplicação irá receber esses dados por meio do Kinesis, salvá-los em um bucket S3 e inferir sua estrutura tabular com Glue para permitir o uso de queries com Athena.
+Our application will receive this data through Kinesis, save it in an S3 bucket, and use Glue to infer its tabular structure, enabling the use of queries with Athena.
